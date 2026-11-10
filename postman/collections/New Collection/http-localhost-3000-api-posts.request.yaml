@@ -1,0 +1,19 @@
+$kind: http-request
+name: |
+  http://localhost:3000/api/posts
+description: ""
+url: |
+  http://localhost:3000/api/posts
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"My First Blog Post\",\r
+
+    \  \"content\": \"This API stores blog posts in MongoDB.\",\r
+
+    \  \"author\": \"Student\"\r
+
+    }"
+order: 1000
